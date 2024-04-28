@@ -22,6 +22,7 @@ body {
 
 .article {
     grid-area: article;
+    
 }
 
 .section {
@@ -45,3 +46,13 @@ body {
     display: flex;
     align-content: space-around;
 }
+
+.article{
+    background-image: url(/src/public/img/article.jpg);
+}
+
+.footer .footer-container{
+    display: flex;
+    align-content: space-between;
+}
+
