@@ -44,15 +44,48 @@ body {
 
 .navbar {
     display: flex;
-    align-content: space-around;
+    justify-content: space-around;
 }
 
-.article{
-    background-image: url(/src/public/img/article.jpg);
-}
 
-.footer .footer-container{
+.footer {
+    background-color: #454848;
     display: flex;
-    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.social {
+    
+    display: flex;
+    color: white;
+    gap: 20px
+
+}
+.social i:hover{
+    color: #75CFB8
+}
+
+
+.footer .subs {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+.footer .subs:hover {
+    border: 3px solid #75CFB8;
+    background-color: #75CFB8;
+}
+
+.footer h5{
+    color: white;
+}
+.social a {
+    color: white;
 }
 
