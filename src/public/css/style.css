@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -60,7 +63,7 @@ body {
     
     display: flex;
     color: white;
-    gap: 20px
+    gap: 16px
 
 }
 .social i:hover{
@@ -72,8 +75,8 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    border: 3px solid white;
-    border-radius: 15px;
+    border: 2px solid white;
+    border-radius: 16px;
     padding: 6px;
 }
 
@@ -89,3 +92,52 @@ body {
     color: white;
 }
 
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header .ingresar {
+    text-decoration: none;
+    text-decoration: none;
+    color: #454848;
+    font-weight: bold;
+    border: 2px solid #454848;
+    border-radius: 16px;
+    padding: 6px;
+}
+
+.header .links a {
+    color: #454848;
+    text-decoration: none;
+}
+
+.header .ingresar:hover {
+    border: 3px solid #75CFB8;
+    background-color: #75CFB8;
+    color: white;
+}
+
+.header .links{
+    display: flex;
+    color: white;
+    gap: 40px;
+    font-family:'Wix+Madefor+Text', 'Times New Roman'; 
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #454848;
+    font-family:'Kodchasan', 'Verdana';
+    font-weight:900;
+}
+
+.links a:hover{
+    color: #75CFB8
+}
