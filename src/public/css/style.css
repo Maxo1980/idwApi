@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wix+Madefor+Display:wght@400..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wix+Madefor+Display:wght@400..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -14,10 +15,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100%;
 }
-/* .container > * {
-    border: 1px solid;
-    text-align: center;
-} */
+
 
 .header {
     grid-area: header;
@@ -88,6 +86,11 @@ body {
     border: 2px solid white;
     border-radius: 16px;
     padding: 6px;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16.5px;
 }
 
 .footer .subs:hover {
@@ -97,6 +100,11 @@ body {
 
 .footer h5{
     color: white;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
 }
 .social a {
     color: white;
@@ -119,6 +127,11 @@ body {
     border: 2px solid #454848;
     border-radius: 16px;
     padding: 6px;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16.5px;
 }
 
 .header .links a {
@@ -136,7 +149,11 @@ body {
     display: flex;
     color: white;
     gap: 40px;
-    font-family:'Wix+Madefor+Text', 'Times New Roman'; 
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
 }
 
 .header .logo{
@@ -144,8 +161,11 @@ body {
     align-items: center;
     gap: 12px;
     color: #454848;
-    font-family:'Kodchasan', 'Verdana';
-    font-weight:900;
+    font-family: "Kodchasan", sans-serif;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
 }
 
 .links a:hover{
