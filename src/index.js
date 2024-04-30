@@ -13,8 +13,12 @@ app.get('/',(req,res)=>{
   res.sendFile(join(__dirname,'public/index.html'));
 });
 
-app.get('/edit', (req,res) => {
-  res.sendFile(join(__dirname,'public/edit.html'));
+app.get('/aboutus', (req,res) => {
+  res.sendFile(join(__dirname,'public/aboutus.html'));
+});
+
+app.get('/contact', (req,res) => {
+  res.sendFile(join(__dirname,'public/contact.html'));
 });
 
 app.use(express.static(join(__dirname, 'public')));
