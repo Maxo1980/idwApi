@@ -209,11 +209,10 @@ body {
     
 }
 
-<<<<<<< HEAD
 
 /* CONTACTO */
 
-article {
+.article {
     background-color: #454848;
     display: flex;
     justify-content: center;
@@ -281,7 +280,7 @@ article {
     font-size: 20px;
 }
 
-form {
+.form {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -299,7 +298,6 @@ form {
     transition: .3s;
     color: #fff;
 }
-=======
 /* PAGINA ABOUT US */
 .container-a {
     display: grid;
@@ -350,4 +348,3 @@ form {
     justify-content: center;
     
 }
->>>>>>> 31dafb31d66dfd550a9aa37e1b08781b3c6a7344
