@@ -41,6 +41,12 @@ body {
 .section-a {
     grid-area: section;
 }
+.section-c{
+    grid-area: section;
+}
+.article-c{
+    grid-area: article;
+}
 
 .footer {
     grid-area: footer;
@@ -212,37 +218,40 @@ body {
 
 /* CONTACTO */
 
-.article {
-    background-color: #454848;
+
+.container-c {
+    display: grid;
+    gap: 10px;
+    grid-template: 
+        "header header" 10%
+        "navbar navbar" 5%
+        "article section" auto
+        "footer footer" 10% /
+          70%     auto; 
+}
+.section-c {
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    background-position: center center;
+}
+
+.article-c {
+    font-family: "Wix Madefor Text", sans-serif;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/desktop.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.contenedor {
+    background-position: center;
     display: flex;
     flex-direction: column;
-   
-    gap: 50px;
-    width: 600px;
-    
-    
-    
+    justify-content: center;
+    align-items: center;
+    gap:50px
 }
 
-.box.info {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.box.info > h1 {
-    text-align: left;
-    letter-spacing: 5px;
+.article-c .data h1 {
+    padding-bottom: 30px;
 }
 
 .data {
@@ -267,6 +276,8 @@ body {
 }
 
 .medialinks > a {
+    
+    border-radius: 4px;
     text-decoration: none;
     width: 40px;
     height: 40px;
@@ -277,7 +288,7 @@ body {
 .medialinks > a > i {
     color: #75CFB8;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .form {
@@ -287,17 +298,34 @@ body {
     gap: 15px;
 }
 
-.input-box > input {
+.section-c form button,
+.section-c form input,
+.section-c form textarea {
+    font-family: "Wix Madefor Text", sans-serif;
     width: 100%;
-    height: 40px;
-    padding: 0 10px;
+    padding: .9em;
+    border: none;
+    background: none;
     outline: none;
-    background: rgba(255 255 255 / .1);
-    border: 3px solid transparent;
-    letter-spacing: 1px;
-    transition: .3s;
-    color: #fff;
+    border-bottom:  1px solid black;
+   }
+.section-c form textarea {
+      resize: none;
+}   
+.section-c form button {
+    background: #75CFB8;
+    border: none;
+    text-transform: uppercase;
+    padding: 1em
 }
+.section-c form button:hover,
+.section-c form button:focus{
+    background: #88dfca;
+    color: white;
+    transition: background-color 1s ease-out;
+    cursor: pointer;
+}
+
 /* PAGINA ABOUT US */
 .container-a {
     display: grid;
@@ -311,6 +339,7 @@ body {
 }
 
 .article-a {
+    
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -330,6 +359,7 @@ body {
 }
 
 .article-a p {
+    font-family: "Wix Madefor Text", sans-serif;
     padding-right: 10px;
     text-align: justify;
     line-height: 150%;
@@ -348,3 +378,5 @@ body {
     justify-content: center;
     
 }
+
+
